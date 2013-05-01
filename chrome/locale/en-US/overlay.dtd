@@ -1,0 +1,8 @@
+<!ENTITY hipkiclient.label "MOICA Web Site">
+<!ENTITY hipkiclientContext.label "Your Menuitem">
+<!ENTITY hipkiclientContext.accesskey "Y">
+<!ENTITY hipkiclientToolbarButton.label "Your Toolbar Button">
+<!ENTITY hipkiclientToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY hipkiclientSidebar.label "Your Sidebar">
+<!ENTITY hipkiclientToolbar.name  "example">
+<!ENTITY hipkiclientToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &hipkiclientToolbar.name;">

@@ -1,0 +1,4 @@
+<!ENTITY prefwindow.title "HiPKI Client for Firefox preferences">
+<!ENTITY pane1.title "HiPKI Client for Firefox preferences">
+<!ENTITY stringpref.label "PKCS11 ¸ô®|">
+<!ENTITY stringpref.accesskey "S">

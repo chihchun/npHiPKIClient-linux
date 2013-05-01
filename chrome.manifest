@@ -1,0 +1,15 @@
+content   hipkiclient                 chrome/content/
+skin      hipkiclient   classic/1.0   chrome/skin/
+locale    hipkiclient   en-US         chrome/locale/en-US/
+
+binary-component plugins/npHiPKIClient.so abi=Linux_x86-gcc3
+binary-component plugins/libHicos_p11v1.so abi=Linux_x86-gcc3
+binary-component plugins/npHiPKIClient64.so abi=Linux_x86_64-gcc3
+binary-component plugins/npHiPKIClient.dylib abi=Darwin_x86-gcc3
+binary-component plugins/libHicos_p11v1.dylib abi=Darwin_x86-gcc3
+binary-component plugins/npHiPKIClient64.dylib abi=Darwin_x86_64-gcc3
+binary-component plugins/npHiPKIClient.dll abi=WINNT_x86-msvc
+binary-component plugins/npHiPKIClient64.dll abi=WINNT_x86_64-msvc
+binary-component plugins/HiCOSPKCS11.dll abi=WINNT_x86-msvc
+
+overlay   chrome://browser/content/browser.xul   chrome://hipkiclient/content/ff-overlay.xul

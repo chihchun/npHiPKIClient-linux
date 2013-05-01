@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://hipkiclient/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://hipkiclient/locale/overlay.dtd">
+<overlay id="hipkiclient-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="hipkiclient-strings" src="chrome://hipkiclient/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <menupopup id="menu_ToolsPopup">
+    <menuitem id="hipkiclient-hello" label="&hipkiclient.label;"
+              oncommand="hipkiclient.onMenuItemCommand(event);"/>
+  </menupopup>
+
+
+
+
+</overlay>
