@@ -10,12 +10,11 @@
     <em:contributor></em:contributor>
     <em:description>HiPKI Client for Firefox</em:description>
     <em:aboutURL>chrome://hipkiclient/content/about.xul</em:aboutURL>
-    <em:optionsURL>chrome://hipkiclient/content/options.xul</em:optionsURL>
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
         <em:minVersion>3.0a1</em:minVersion>
-        <em:maxVersion>20.0</em:maxVersion>
+        <em:maxVersion>21.0</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
